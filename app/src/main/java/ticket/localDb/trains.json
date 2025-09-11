@@ -1,0 +1,55 @@
+[
+  {
+    "trainId": "TR002",
+    "trainNumber": "B456",
+    "seats": [
+      [1, 1, 0, 1, 0],
+      [0, 1, 1, 0, 1],
+      [1, 0, 1, 1, 1],
+      [0, 0, 1, 0, 1]
+    ],
+    "stationTimes": {
+      "Chicago": "07:30:00",
+      "Cleveland": "10:15:00",
+      "Pittsburgh": "13:45:00",
+      "Philadelphia": "16:30:00",
+      "New York": "18:00:00"
+    },
+    "station": "Chicago"
+  },
+  {
+    "trainId": "TR003",
+    "trainNumber": "C789",
+    "seats": [
+      [1, 0, 1, 1],
+      [1, 1, 0, 0],
+      [0, 1, 1, 1]
+    ],
+    "stationTimes": {
+      "San Francisco": "06:00:00",
+      "Sacramento": "08:30:00",
+      "Reno": "12:15:00",
+      "Salt Lake City": "17:45:00",
+      "Denver": "21:00:00"
+    },
+    "station": "San Francisco"
+  },
+  {
+    "trainId": "TR004",
+    "trainNumber": "D101",
+    "seats": [
+      [0, 1, 1],
+      [1, 1, 1],
+      [1, 0, 0],
+      [1, 1, 0]
+    ],
+    "stationTimes": {
+      "Houston": "09:00:00",
+      "Dallas": "12:30:00",
+      "Oklahoma City": "15:15:00",
+      "Kansas City": "19:00:00",
+      "Chicago": "23:30:00"
+    },
+    "station": "Houston"
+  }
+]

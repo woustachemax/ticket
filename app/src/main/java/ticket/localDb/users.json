@@ -1,0 +1,32 @@
+{
+  "user": {
+    "user": "john_doe",
+    "password": "password123",
+    "hashedPassword": "5f4dcc3b5aa765d61d8327deb882cf99",
+    "userId": "U001",
+    "ticketsBooked": [
+      {
+        "userId": "U001",
+        "ticketId": "T1001",
+        "source": "Boston",
+        "destination": "New York",
+        "dateOfTravel": "2025-09-10T09:00:00Z",
+        "train": {
+          "trainId": "TR001",
+          "trainNumber": "A123",
+          "seats": [
+            [1, 0, 1, 1],
+            [0, 1, 0, 1],
+            [1, 1, 1, 0]
+          ],
+          "stationTimes": {
+            "Boston": "08:00:00",
+            "Providence": "08:45:00",
+            "New York": "12:00:00"
+          },
+          "station": "Boston"
+        }
+      }
+    ]
+  }
+}

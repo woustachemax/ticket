@@ -1,7 +1,6 @@
-package ticket.booking.entities;
+package ticket.entities;
 
 import java.util.Date;
-import java.util.List;
 
 public class Ticket {
 
